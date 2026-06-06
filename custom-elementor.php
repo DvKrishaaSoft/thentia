@@ -90,7 +90,7 @@ class Widget_Loader{
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Widgets\Elementor_Unified_Platform_Widget());
 		// \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Widgets\Elementor_Casestudy_Summery_Widget())
 
-	}
+	} 
 
 	public function __construct(){
 		add_action('elementor/widgets/widgets_registered', [$this, 'register_widgets'], 99);
